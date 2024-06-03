@@ -113,7 +113,7 @@ addVideoTrackButton.addEventListener('click', () => {addTracks({video: true})})
 switchCameraButton.addEventListener('click', () => {switchCamera()})
 
 // SOCKET
-const socket = io.connect("http://192.168.0.209:3050");
+const socket = io.connect("https://192.168.0.209:3050");
 socket.on("message", message => {
     if (message.offer) {
         handleOffer(message.offer);
