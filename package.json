@@ -8,7 +8,8 @@
     "watch-scss": "nodemon -e scss -x 'npm run compile'",
     "live-server": "live-server",
     "watch-js": "npx webpack watch --config ./webpack.config.js",
-    "start": "npm-run-all -p live-server watch-scss watch-js"
+    "start": "npm-run-all -p live-server watch-scss watch-js",
+    "build": "npm run compile && npx webpack --config webpack.config.js"
   },
   "keywords": [
     "css",
