@@ -1,0 +1,17 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'sans-serif';
+}
+
+body {
+    font-size: 1.5rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
